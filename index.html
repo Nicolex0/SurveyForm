@@ -1,11 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Survey <Form></Form></title>
-</head>
-<body>
-    
-</body>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">We'd love to hear your thoughts on our service!</p>
+    </header>
+    <main>
+      <form id="survey-form" method="POST" action="#">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label id="name-label" for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required />
+
+          <label id="email-label" for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+          <label id="number-label" for="number">Age:</label>
+          <input type="number" id="number" name="age" min="12" max="120" placeholder="Enter your age" required />
+        </fieldset>
+        <fieldset>
+          <legend>Rate our service</legend>
+          <label for="dropdown">How often do you use our services?</label>
+          <select id="dropdown" name="frequency">
+            <option value="">Select an option</option>
+            <option value="1">Daily</option>
+            <option value="2">Weekly</option>
+            <option value="3">Monthly</option>
+          </select>
+
+          <p>How would you rate the overall service?</p>
+          <label><input id="excellent" type="radio" name="rating" value="excellent" checked> Excellent</label>
+          <label><input id="good" type="radio" name="rating" value="good"> Good</label>
+          <label><input id="average" type="radio" name="rating" value="average"> Average</label>
+        </fieldset>
+        <fieldset>
+          <legend>Additional Feedback</legend>
+          <p>Which services do you use most?</p>
+          <input id="pickup" type="checkbox" name="services" value="pickup">
+          <label for="pickup">Pickup</label>
+
+          <input id="dinein" type="checkbox" name="services" value="dinein">
+          <label for="dinein">Dine-in</label> 
+
+          <input id="delivery" type="checkbox" name="services" value="delivery">
+          <label for="delivery">Delivery</label> 
+
+          <p>Any additional comments?</p>
+          <textarea id="comments" name="comments" placeholder="Your comments here..." rows="4"></textarea>
+        </fieldset>
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </main>
+    <footer>
+      <p>Learn more about our services:</p>
+      <a href="https://www.fooddelivery.com">Visit our website</a>
+    </footer>
+  </body>
 </html>
