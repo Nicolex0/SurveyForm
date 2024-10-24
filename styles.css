@@ -1,0 +1,108 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/fast-food-take-away-illustration_23-2149519163.jpg?t=st=1729789367~exp=1729792967~hmac=3f11c0903c60844200ffcf5067e790cef246d2173043effceae51687379ec94c&w=740);
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  header, h1 {
+    font-size: 2.5rem;
+    color: #ff8c00; 
+  }
+  
+  
+  #title {
+    font-size: 2.5rem;
+    color: #ff8c00;
+  }
+  
+  #description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  fieldset {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  legend {
+    font-weight: 600;
+    color: #2a9d8f;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 15px;
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ff8c00;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ff8c00;
+    color: white;
+  }
+  
+  footer img {
+    display: block;
+    margin: 10px auto;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
