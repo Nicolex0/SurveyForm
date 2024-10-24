@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://img.freepik.com/free-vector/fast-food-take-away-illustration_23-2149519163.jpg?t=st=1729789367~exp=1729792967~hmac=3f11c0903c60844200ffcf5067e790cef246d2173043effceae51687379ec94c&w=740);
+    background-image: url(https://images.pexels.com/photos/12696400/pexels-photo-12696400.jpeg?auto=compress&cs=tinysrgb&w=600);
     font-family: 'Poppins', sans-serif;
     background-color: #f4f4f9;
     color: #333;
@@ -14,13 +14,13 @@ body {
   
   header, h1 {
     font-size: 2.5rem;
-    color: #ff8c00; 
+    color: #333; 
   }
   
   
   #title {
     font-size: 2.5rem;
-    color: #ff8c00;
+    color: #333;
   }
   
   #description {
